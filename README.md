@@ -5,8 +5,9 @@ Need use Android-ndk-r14b to compile, if use others will cause unexpected error.
 ## 3 run ./build_android_single.sh
 ## 4 find the so files in android-signle folder
 
-# ref: https://developer.android.com/ndk/downloads/older_releases
-       https://www.jianshu.com/p/e0c32c8b0ebc
+# ref: 
+* https://developer.android.com/ndk/downloads/older_releases
+* https://www.jianshu.com/p/e0c32c8b0ebc
 
 FFmpeg README
 =============
