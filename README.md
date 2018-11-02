@@ -7,6 +7,7 @@ Need use Android-ndk-r14b to compile, if use others will cause unexpected error.
 
 # ref: 
 * https://developer.android.com/ndk/downloads/older_releases
+* https://www.jianshu.com/p/dfd0de17601c
 * https://www.jianshu.com/p/e0c32c8b0ebc
 
 FFmpeg README
