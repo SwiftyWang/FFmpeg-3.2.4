@@ -1,0 +1,14 @@
+prefix=/Users/swiftywang/project/ffmpeg-3.2.4/android-single/armv7-a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.65.100
+Requires: libswscale >= 4.2.100, libavformat >= 57.56.101, libavcodec >= 57.64.101, libswresample >= 2.3.100, libavutil >= 55.34.101
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter -lm -lz -pthread
+Libs.private: 
+Cflags: -I${includedir}
