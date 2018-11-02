@@ -1,9 +1,9 @@
 Need use Android-ndk-r14b to compile, if use others will cause unexpected error.
 ============
-# 1 modify the config.sh
-# 2 chmod +x *.sh
-# 3 run ./build_android_single.sh
-# 4 find the so files in android-signle folder
+## 1 modify the config.sh
+## 2 chmod +x *.sh
+## 3 run ./build_android_single.sh
+## 4 find the so files in android-signle folder
 
 FFmpeg README
 =============
