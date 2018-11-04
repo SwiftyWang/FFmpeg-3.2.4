@@ -514,7 +514,7 @@
 @set config-runtime-cpudetect yes
 @set config-safe-bitstream-reader yes
 @c @set config-shared no
-@c @set config-small no
+@set config-small yes
 @set config-static yes
 @set config-swscale-alpha yes
 @c @set config-gpl no

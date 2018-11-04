@@ -31,6 +31,7 @@ function build_one
         --target-os=linux \
         --arch=arm \
         --enable-cross-compile \
+        --enable-small \
         --sysroot=$SYSROOT \
         --extra-cflags="-Os -fpic $ADDI_CFLAGS" \
         --extra-ldflags="$ADDI_LDFLAGS" \

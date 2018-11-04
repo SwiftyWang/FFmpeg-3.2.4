@@ -2,7 +2,7 @@
 . config.sh
 export TMPDIR=$(pwd)/ffmpegtemp
 
-PREFIX=$(pwd)/android-/$CPU
+PREFIX=$(pwd)/android-one/$CPU
 ADDI_CFLAGS="-marm"
 function build_one
 {
