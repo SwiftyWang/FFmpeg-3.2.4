@@ -38,3 +38,5 @@ android-*
 /src
 /mapfile
 config.log
+config.fate
+config.mak
