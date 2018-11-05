@@ -37,3 +37,4 @@ android-*
 /lcov/
 /src
 /mapfile
+config.log
