@@ -1,5 +1,5 @@
 #!/bin/bash
-. config.sh
+. config_arm.sh
 export TMPDIR=$(pwd)/ffmpegtemp
 
 PREFIX=$(pwd)/android-one/$CPU

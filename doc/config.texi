@@ -68,13 +68,13 @@
 @c @set have-loongson3 no
 @c @set have-mmi no
 @set have-armv5te-external yes
-@c @set have-armv6-external no
-@c @set have-armv6t2-external no
+@set have-armv6-external yes
+@set have-armv6t2-external yes
 @c @set have-armv8-external no
-@c @set have-neon-external no
+@set have-neon-external yes
 @set have-vfp-external yes
-@c @set have-vfpv3-external no
-@c @set have-setend-external no
+@set have-vfpv3-external yes
+@set have-setend-external yes
 @c @set have-altivec-external no
 @c @set have-dcbzl-external no
 @c @set have-ldbrx-external no
@@ -112,13 +112,13 @@
 @c @set have-loongson3-external no
 @c @set have-mmi-external no
 @set have-armv5te-inline yes
-@c @set have-armv6-inline no
-@c @set have-armv6t2-inline no
+@set have-armv6-inline yes
+@set have-armv6t2-inline yes
 @c @set have-armv8-inline no
-@c @set have-neon-inline no
-@c @set have-vfp-inline no
-@c @set have-vfpv3-inline no
-@c @set have-setend-inline no
+@set have-neon-inline yes
+@set have-vfp-inline yes
+@set have-vfpv3-inline yes
+@set have-setend-inline yes
 @c @set have-altivec-inline no
 @c @set have-dcbzl-inline no
 @c @set have-ldbrx-inline no
@@ -181,7 +181,7 @@
 @c @set have-symver no
 @c @set have-yasm no
 @c @set have-bigendian no
-@c @set have-fast-unaligned no
+@set have-fast-unaligned yes
 @c @set have-alsa-asoundlib-h no
 @c @set have-altivec-h no
 @set have-arpa-inet-h yes
@@ -228,7 +228,7 @@
 @c @set have-valgrind-valgrind-h no
 @c @set have-windows-h no
 @c @set have-winsock2-h no
-@c @set have-intrinsics-neon no
+@set have-intrinsics-neon yes
 @set have-atanf yes
 @set have-atan2f yes
 @set have-cbrt yes
@@ -244,8 +244,8 @@
 @set have-isinf yes
 @set have-isnan yes
 @set have-ldexpf yes
-@set have-llrint yes
-@set have-llrintf yes
+@c @set have-llrint no
+@c @set have-llrintf no
 @c @set have-log2 no
 @c @set have-log2f no
 @set have-log10f yes
@@ -537,7 +537,7 @@
 @set config-dwt yes
 @set config-error-resilience yes
 @set config-faan yes
-@c @set config-fast-unaligned no
+@set config-fast-unaligned yes
 @set config-fft yes
 @set config-lsp yes
 @set config-lzo yes

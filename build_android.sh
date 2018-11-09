@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #引入配置文件
-. config.sh
+. config_arm.sh
 
 PREFIX=$(pwd)/android/$CPU
 ADDI_CFLAGS="-marm"

@@ -40,3 +40,4 @@ android-*
 config.log
 config.fate
 config.mak
+ffmpegtemp/*
